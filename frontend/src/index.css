@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*header*/
+
+.header{
+  background-color: aquamarine;
+  height: 16vh;
+  font-size: 130%;
+
+  
+}
+
+.header-right a{
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: azure;
+}
+
+.header-right{
+  float: right;
+}
+
+/*footer*/
+.footer{
+  position: fixed;  
+left: 10px;  
+bottom: 5px;  
+right: 10px;   
+width: 100%;  
+background-color: gray;  
+color: white;  
+text-align: center;  
+}
+
+
+/*body*/
+.body{
+  text-align: center;
+  justify-content: center;
+
+  font-size: 30px;
+}
+/*register*/
+
+.form{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+  
+  max-width: 600px;
+  width: 100%;
+  height: 75vh;
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 2.5px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+.container li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  margin: 2.5px;
+  padding: 2.5px;
+}
+.container input{
+  
+    box-sizing: border-box;
+    width: 80%;
+    height: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    background: white;
+    outline: none;
+}
+.register{
+  text-align: center;
+}
+.registerbtn{
+  text-align: center;
+  font-size: 15px;
+  margin: 3px;
+  padding: 3px;
+  justify-content: center;
+}
+.button{
+  text-align: center;
+  
+}
+/*lawyer's register*/
+.lawyerform{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.lawyercontainer{
+  
+  max-width: 600px;
+  width: 100%;
+  height: 80vh;
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 2.5px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.lawyercontainer li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  margin: 2.5px;
+  padding: 2.5px;
+}
+.lawyercontainer input{
+  
+  box-sizing: border-box;
+  width: 80%;
+  height: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  text-align: left;
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+  background: white;
+  outline: none;
+}
+.lawyerregister{
+  text-align: center;
+}
